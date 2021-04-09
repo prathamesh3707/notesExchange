@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2vw 5vw;
+}
+.image img {
+  border-radius: 2vw;
+}
+.image img:hover {
+  /* border-radius: 30vw; */
+  transition: 1s;
+  transform: rotate(360deg);
+}
+.menu a {
+  text-decoration: none;
+  font-size: 1.8vw;
+  color: white;
+  font-family: "Satisfy", cursive;
+  margin: 0vw 2vw;
+}
+.menu a:hover {
+  text-decoration: underline;
+  color: rgb(175, 245, 245);
+}
+.box {
+  position: absolute;
+  top: 22%;
+  left: 8%;
+}
+.box1 {
+  background: white;
+  height: 0.8vw;
+  width: 0.8vw;
+  border-radius: 0.3vw;
+}
+.box2 {
+  height: 0.2vw;
+  width: 10vw;
+  background: white;
+}
+.box3 {
+  height: 0.2vw;
+  width: 20vw;
+  background: white;
+}
+.tagline {
+  font-size: 4vw;
+  font-family: "Merienda", cursive;
+}
+.info {
+  font-size: 1.7vw;
+  font-family: "Mali", cursive;
+}
+.right img {
+  width: 30vw;
+  -webkit-box-reflect: below 0.2vw
+    linear-gradient(transparent, transparent, #0004);
+}
+.right {
+  position: absolute;
+  top: 15%;
+  right: 8%;
+}
+.socialMedia {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+.socialMedia img {
+  width: 10vw;
+  margin-left: 2vw;
+}
+.socialMedia img:hover {
+  cursor: pointer;
+}
+.bgPattern {
+  position: absolute;
+  top: 2%;
+  z-index: -1;
+}
